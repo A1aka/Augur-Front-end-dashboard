@@ -1,0 +1,20 @@
+/* DistributorCard.css */
+.distributor-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.distributor-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.distributor-card h2 {
+    margin-bottom: 10px;
+}
+
+.distributor-card p {
+    margin: 5px 0;
+}
