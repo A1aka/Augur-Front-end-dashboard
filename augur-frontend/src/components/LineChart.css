@@ -1,0 +1,11 @@
+/* LineChart.css */
+
+.chart-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.canvas-container {
+    max-width: 600px;
+    margin: 0 auto;
+}

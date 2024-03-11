@@ -1,0 +1,59 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.metrics,
+.filters,
+.sorting {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.metrics label,
+.filters label,
+.sorting label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.distributor-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Style for DistributorCard component */
+.distributor-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.distributor-card h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.distributor-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Style for LineChart component */
+.line-chart {
+    max-width: 100%;
+    height: 200px;
+    /* Adjust height as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
